@@ -5,7 +5,7 @@ import { signIn, signOut } from "next-auth/react";
 export function Logout() {
   return (
     <button
-      className="flex items-center justify-center gap-2 rounded-lg bg-red-500 px-8 py-3 text-center text-sm font-semibold text-white ring-red-300 transition duration-100 hover:bg-red-600 md:text-base"
+      className="flex items-center justify-center gap-2 rounded-lg bg-red-500 px-8 py-3 hover:text-black text-center text-sm font-semibold text-white ring-red-300 transition duration-100 hover:bg-red-600 md:text-base"
       onClick={() => signOut()}
     >
       Logout
@@ -16,7 +16,7 @@ export function Logout() {
 export function NavLogin() {
   return (
     <button
-      className="flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-8 py-3 text-center text-sm font-semibold text-white ring-teal-300 transition duration-100 hover:bg-teal-600 md:text-base"
+      className="flex items-center justify-center gap-2 rounded-lg bg-green-900 px-8 py-3 text-center text-sm font-semibold text-white ring-green-300 transition duration-100 hover:bg-green-500 hover:text-black md:text-base"
       onClick={() => signIn()}
     >
       Login
@@ -27,7 +27,7 @@ export function NavLogin() {
 export function MainLogin() {
   return (
     <button
-      className="w-full flex items-center justify-center gap-2 rounded-lg bg-teal-500 px-8 py-3 text-center text-sm font-semibold text-white ring-teal-300 transition duration-100 hover:bg-teal-600 md:text-base"
+      className="w-full flex items-center justify-center gap-2 rounded-lg bg-green-900 px-8 py-3 text-center text-sm font-semibold text-white ring-green-300 transition duration-100 hover:bg-green-500 hover:text-black md:text-base"
       onClick={() => signIn()}
     >
       Login with Github

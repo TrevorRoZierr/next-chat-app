@@ -13,7 +13,7 @@ export default async function Home() {
 
   return (
     <div className="max-w-xl mx-auto border rounded-lg mt-32 p-10">
-      <h1 className="text-4xl font-semibold text-center">Login to use chat!</h1>
+      <h1 className="text-4xl font-semibold text-center">Login to use diary!</h1>
       <div className="mt-8">
         <MainLogin />
       </div>

@@ -37,7 +37,7 @@ export default async function Chathomepage() {
   }
 
   return (
-    <div className="h-screen bg-gray-200 flex flex-col">
+    <div className="h-screen bg-green-900 flex flex-col">
       <ChatComponent data={data as any} />
       <Form />
     </div>

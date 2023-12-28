@@ -56,11 +56,11 @@ export default function ChatComponent({ data }: iAppProps) {
                 width={50}
                 height={50}
               />
-              <div className="rounded-lg bg-white p-4 shadow-md self-start">
+              <div className="rounded-lg bg-yellow-100 text-green-900 p-4 shadow-md self-start font-semibold">
                 {message.message}
               </div>
             </div>
-            <p className="font-light text-sm text-gray-600">
+            <p className="font-medium text-sm text-yellow-100 mt-[10px] w-12 h-12">
               {message.User.name}
             </p>
           </div>
